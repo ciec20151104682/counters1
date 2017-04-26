@@ -33,9 +33,9 @@ class ViewController: UIViewController {
         var stwo:Int = 0
         var onescore:Int=0
         var twoscore:Int=0
-        //var img1:UIImage
-        //var img2:UIImage
-        //var img:UIImage
+        var img1:UIImage
+        var img2:UIImage
+        var img:UIImage
     //img1=UIImage(imgone.image);
     //img2=UIImage(imgtwo.image);
         //img=onebody.image;
