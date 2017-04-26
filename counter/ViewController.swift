@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     twoscore=Int(scoretwo.text!)!;
         stwo=Int(two.text!)!;
         sone=Int(one.text!)!;
-       /* if(sone>=11){
+        if(sone>=11){
             if (stwo<10) {
                 onescore=1+onescore;
                 sone=0;
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
             else
             {
                 print("wrong!");}
-        }*/
+        }
     scoreone.text=("\(onescore)");
     scoretwo.text=("\(twoscore)");
         one.text=("\(sone)");
