@@ -10,13 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    /*@IBOutlet weak var imgtwo: UIImageView!
-   @IBOutlet weak var imgone: UIImageView!
+    //@IBOutlet weak var imgtwo: UIImageView!
+   //@IBOutlet weak var imgone: UIImageView!
    @IBOutlet weak var scoretwo: UILabel!
    @IBOutlet weak var scoreone: UILabel!
    @IBOutlet weak var one: UILabel!
     @IBOutlet weak var two: UILabel!
-    @IBAction func oneup(_ sender: Any) {
+   @IBAction func oneup(_ sender: Any) {
         var score:Int = 0
         score=Int(one.text!)!;
         score=score+1;
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     twoscore=Int(scoretwo.text!)!;
         stwo=Int(two.text!)!;
         sone=Int(one.text!)!;
-        if(sone>=11){
+       /* if(sone>=11){
             if (stwo<10) {
                 onescore=1+onescore;
                 sone=0;
@@ -82,12 +82,12 @@ class ViewController: UIViewController {
             else
             {
                 print("wrong!");}
-        }
+        }*/
     scoreone.text=("\(onescore)");
     scoretwo.text=("\(twoscore)");
         one.text=("\(sone)");
         two.text=("\(stwo)");
-    }*/
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
