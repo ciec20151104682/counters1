@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var imgtwo: UIImageView!
-    @IBOutlet weak var imgone: UIImageView!
-    @IBOutlet weak var scoretwo: UILabel!
-    @IBOutlet weak var scoreone: UILabel!
-    @IBOutlet weak var one: UILabel!
+    /*@IBOutlet weak var imgtwo: UIImageView!
+   @IBOutlet weak var imgone: UIImageView!
+   @IBOutlet weak var scoretwo: UILabel!
+   @IBOutlet weak var scoreone: UILabel!
+   @IBOutlet weak var one: UILabel!
     @IBOutlet weak var two: UILabel!
     @IBAction func oneup(_ sender: Any) {
         var score:Int = 0
@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         var stwo:Int = 0
         var onescore:Int=0
         var twoscore:Int=0
-        var img1:UIImage
-        var img2:UIImage
+        var img1:UIImageView
+        var img2:UIImageView
         var img:UIImage
     //img1=UIImage(imgone.image);
     //img2=UIImage(imgtwo.image);
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
     scoretwo.text=("\(twoscore)");
         one.text=("\(sone)");
         two.text=("\(stwo)");
-    }
+    }*/
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
