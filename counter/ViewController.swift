@@ -79,7 +79,9 @@ class ViewController: UIViewController {
                 sone=0;
                 stwo=0;
             }
-            print("wrong!");
+            else
+            {
+                print("wrong!");}
         }
     scoreone.text=("\(onescore)");
     scoretwo.text=("\(twoscore)");
